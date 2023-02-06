@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="fondo_archivo_limpio">#E6FDC2</color>
+    <color name="fondo_archivo_infectado">#FCBDBD</color>
+    <color name="fondo_archivo_en_progreso">#D3EBFC</color>
 </resources>

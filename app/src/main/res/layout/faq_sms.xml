@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/mi_toolbar"></include>
+
+    <TextView
+        android:id="@+id/pregunta5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/pregunta5"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/respuesta5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="@string/respuesta5"
+        android:visibility="gone" />
+
+
+</LinearLayout>

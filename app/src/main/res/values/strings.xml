@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Malware Scanner &amp; Anti SMS Phishing</string>
+    <string name="no_mensajes">No hay mensajes detectados como phishing.</string>
+    <string name="mensajes_phishing">Posibles mensajes detectados como phishing:</string>
+    <string name="pregunta1">¿Como funciona la aplicación?</string>
+    <string name="pregunta2">¿Cual es el tamaño maximo de archivo?</string>
+    <string name="pregunta3">¿Que tipo de archivos se pueden analizar?</string>
+    <string name="pregunta4">¿Se pueden analizar archivos con contraseña?</string>
+    <string name="pregunta5">¿Que es el Phishing?</string>
+    <string name="respuesta1">La aplicacion cuenta con dos funcionalidades, una permite analizar archivos descargados en el telefono y la otra revisa los SMS para detectar casos de Phishing. Para el analisis de archivos se hace uso de la API VirusTotal v3.</string>
+    <string name="respuesta2">El tamaño maximo de archivo que se puede analizar es de 32 Mb.</string>
+    <string name="respuesta3">Por el momento se pueden analizar imagenes, audios y videos.</string>
+    <string name="respuesta4">Esta provisto para la proxima versión.</string>
+    <string name="respuesta5">Es una estafa que tiene como objetivo obtener a través de distintos medios(en este caso SMS) datos privados de los usuarios, especialmente para acceder a sus cuentas o datos bancarios.</string>
+    <string name="channel_name">Canal Notificaciones</string>
+    <string name="channel_description">Canal de notificaciones para la aplicación desarrollada</string>
 </resources>

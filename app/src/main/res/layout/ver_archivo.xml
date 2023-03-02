@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -44,20 +46,13 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/botonReporte"
+        android:id="@+id/cancelarAnalisis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:text="Obtener reporte" />
-
-    <TextView
-        android:id="@+id/informacion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Aún no ha trascurrido el tiempo suficiente para obtener el reporte."
-        android:textSize="12sp" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:text="Cancelar Analisis" />
 
     <TextView
         android:id="@+id/reporte"
@@ -69,5 +64,23 @@
         android:text="reporte"
         android:textSize="20sp"
         android:visibility="gone" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/borrarArchivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#F18484"
+            android:clickable="true"
+            android:visibility="gone"
+            app:maxImageSize="40dp"
+            app:srcCompat="@android:drawable/ic_menu_delete" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </LinearLayout>

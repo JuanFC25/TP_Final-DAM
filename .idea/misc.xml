@@ -9,12 +9,19 @@
         <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/drawable/noInfectado_background.xml" value="0.26" />
         <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/layout/elegir_archivo.xml" value="0.1778115501519757" />
+        <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/layout/faq_archivo.xml" value="0.33" />
+        <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/layout/faq_phishing.xml" value="0.25" />
+        <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/layout/faq_sms.xml" value="0.33" />
         <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/layout/file_scanner.xml" value="0.33" />
         <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/layout/item_grid_archivo.xml" value="0.33" />
+        <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/layout/item_sms.xml" value="0.358695652173913" />
         <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/layout/menu_toolbar.xml" value="0.358695652173913" />
         <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/layout/mi_toolbar.xml" value="0.22" />
+        <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/layout/sms_scanner.xml" value="0.28177083333333336" />
         <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/layout/ver_archivo.xml" value="0.33" />
+        <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/menu/menu_toolbar.xml" value="0.35185185185185186" />
         <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/mipmap-anydpi-v26/enProgreso.xml" value="0.2215" />
+        <entry key="..\:/Users/juank/AndroidStudioProjects/MalwareScannerAntiSMSPhishing/app/src/main/res/xml/settings.xml" value="0.25" />
       </map>
     </option>
   </component>

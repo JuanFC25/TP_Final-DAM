@@ -74,7 +74,17 @@ public class EspressoTest {
     }
 */
     @Test
-    public void verFAQ(){
+    public void verFAQArchivo(){
+        onView(withId(R.id.menuAyuda)).check(matches(isDisplayed()));
+        onView(withId(R.id.menuAyuda)).perform(click());
+    }
+
+    @Test
+    public void verFAQSMS(){
+        openActionBarOverflowOrOptionsMenu(getInstrumentation().getTargetContext());
+// Choose item "Settings"
+        onView(withText("Anti SMS Phishing")).perform(click());
+// Check that settings activity was opened
         onView(withId(R.id.menuAyuda)).check(matches(isDisplayed()));
         onView(withId(R.id.menuAyuda)).perform(click());
     }

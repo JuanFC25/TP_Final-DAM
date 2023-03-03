@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
     <Preference
         android:key="verificarPermisosRecibirSMS"
         android:summary="Solicitar permisos necesarios para poder enviar notificaciones al recibir un mensaje"
@@ -8,10 +9,17 @@
     <SwitchPreference
         android:defaultValue="false"
         android:key="permitirNotificacionesMensaje"
-        android:title="Notificaciones al recibir un mensaje" />
+        android:title="Mensajes"
+        android:summary="Notificaciones al recibir un mensaje"/>
     <SwitchPreference
         android:defaultValue="false"
         android:key="permitirNotificacionesArchivo"
-        android:title="Notificaciones cuando se analiza un archivo" />
-</PreferenceScreen>
+        android:title="Archivos"
+        android:summary="Notificaciones cuando se analiza un archivo"
+        />
+    <Preference
 
+        android:key="volver"
+        android:title="Volver"
+        android:layout="@layout/text_view_preference" />
+</PreferenceScreen>

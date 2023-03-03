@@ -61,15 +61,5 @@
             android:parentActivityName=".MainActivity">
         </activity>
         <service android:name=".Services.ObtenerScanService" />
-        <receiver android:name=".utils.ReceptorSMS"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="Telephony.Sms.Intents.SMS_RECEIVED_ACTION" />
-            </intent-filter>
-        </receiver>
-
     </application>
-
-
-
 </manifest>
